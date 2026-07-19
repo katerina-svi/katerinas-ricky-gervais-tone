@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
+  "name": "katerinas-ricky-gervais-tone",
+  "owner": {
+    "name": "Kateřina Švidrnochová",
+    "url": "https://svidrnochova.cz"
+  },
+  "description": "Komediální přepisovací skill v češtině — mechanika humoru Rickyho Gervaise, instalovatelný jako Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "ricky-gervais-tone",
+      "source": "./",
+      "description": "Přepíše jakýkoliv text do komediálního stylu inspirovaného Rickym Gervaisem: suchá ironie, morální inverze, eskalace do absurdna, ostré pointy. Tři úrovně ostrosti, punch up jako tvrdé pravidlo.",
+      "license": "MIT",
+      "keywords": ["cestina", "czech", "writing", "comedy", "satire", "humor", "tone-of-voice"]
+    }
+  ]
+}

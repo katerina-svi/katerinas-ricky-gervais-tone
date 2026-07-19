@@ -1,0 +1,45 @@
+name: "🐞 Chyba / nesrovnalost"
+description: "Skill změnil význam textu, porušil mantinely (punch down), nebo výstup prostě nesedí."
+title: "[Chyba]: "
+labels: ["chyba"]
+body:
+  - type: textarea
+    id: vstup
+    attributes:
+      label: "Vstupní text"
+      description: "Text, který jsi skillu předal(a)."
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: vystup
+    attributes:
+      label: "Co skill vrátil"
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: ocekavani
+    attributes:
+      label: "Co je špatně"
+      description: "Např. ztratilo se klíčové sdělení, terčem byla oběť místo instituce, nebo výstup zněl jako převzatý vtip."
+    validations:
+      required: true
+  - type: dropdown
+    id: uroven
+    attributes:
+      label: "Jaká úroveň ostrosti byla zadaná?"
+      options:
+        - "1 — Jemná ironie"
+        - "2 — Standard (default)"
+        - "3 — Plný Ricky"
+        - "Neurčeno / nevím"
+  - type: dropdown
+    id: prostredi
+    attributes:
+      label: "Kde skill běžel?"
+      options:
+        - "Claude.ai (web/aplikace)"
+        - "Claude Code (plugin)"
+        - "Skills CLI / jiný agent"
+        - "Jinde / nevím"

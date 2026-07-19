@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "ricky-gervais-tone",
+  "description": "Přepisuje libovolný text do komediálního stylu inspirovaného Rickym Gervaisem — suchá ironie, morální inverze, hyper-logická eskalace do absurdna, ostré pointy. Primárně v češtině. Přebírá mechaniku humoru, nikdy ne konkrétní vtipy.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kateřina Švidrnochová",
+    "url": "https://svidrnochova.cz"
+  },
+  "homepage": "https://github.com/katerina-svi/katerinas-ricky-gervais-tone",
+  "repository": "https://github.com/katerina-svi/katerinas-ricky-gervais-tone",
+  "license": "MIT",
+  "keywords": ["cestina", "czech", "writing", "comedy", "satire", "humor", "tone-of-voice", "copywriting"]
+}
